@@ -31,5 +31,3 @@ while True:
             print(f"Your guess is higher then the number, try guessing a number that is below {user_guess}.")
     else:
             print(f"Your guess was lower then the number, try guessing a number that is higher than {user_guess}")
-
-print("You guessed the number correctly in", guesses, "guesses!!!")

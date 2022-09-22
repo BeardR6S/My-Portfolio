@@ -44,6 +44,8 @@ while True:
         print("You lost, the pesky computer wins this one.")
         computer_wins += 1
 
+
+#?Use Ternary Operator to change this up, as well as multiline string interpolation. Will come back to this.  
 print()
 print("You won", user_wins, "times.")
 print()
