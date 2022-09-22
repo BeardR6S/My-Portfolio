@@ -35,6 +35,11 @@ while True:
         user_wins += 1
         continue
     
+    if user_input == computer_pick:
+        print("It's a draw, go again!")
+        draw += 1
+        continue
+    
     else:
         print("You lost, the pesky computer wins this one.")
         computer_wins += 1
